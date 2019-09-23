@@ -24,6 +24,10 @@ a:hover {
 
 /* Section Styles */
 
+.quote-header{
+  padding-top: 30px;
+}
+
 blockquote{
   margin: 0;
   padding-bottom: 20px;
@@ -35,7 +39,6 @@ blockquote p{
   border-radius: 5px;
   text-align: justify;
 }
-
 
 blockquote p::before{
   content: open-quote;
@@ -125,7 +128,7 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
-/* section styles*/
+
 section {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -243,6 +246,19 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+}
+
+a.read{
+  background-color: #272C51;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+a.read:hover{
+  background-color: #363E6A;
+  color: white;
 }
 
 a.social {
