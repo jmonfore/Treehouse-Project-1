@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #212121;
 }
 
 a:hover {
@@ -51,6 +51,7 @@ blockquote p::after{
 h2{
   text-align: center;
 }
+
 .main-nav {
   width: 100%;
   background: #363e6a;
@@ -59,6 +60,7 @@ h2{
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -78,6 +80,8 @@ h2{
 }
 .nav a {
   transition: all .5s;
+  text-decoration: none;
+  color: #ccc;
 }
 .nav a:hover {
   color: white
@@ -121,36 +125,8 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
-
+/* section styles*/
 section {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: center;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
-}
-
-section a{
-  background-color: #272C51;
-  color: white;
-  padding: 15px;
-  border-radius: 5px;
-  display: inline-block;
-}
-
-section a:hover{
-  background-color: #363E6A;
-  color: white;
-}
-
-section:hover{
-  border-color: #ff99ff; 
-}
-
-.card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -161,14 +137,73 @@ section:hover{
   transition: all .5s;
 }
 
-.card:hover {
+a.button{
+  background-color: #272C51;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+a.button:hover{
+  background-color: #363E6A;
+  color: white;
+}
+
+section:hover{
   border-color: #ff99ff; 
 }
 
-.center{
+section .card-image{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*these are overide styles*/
+
+#jupiter.card{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+#saturn.card{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+#pluto.card{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+#neptune.card{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
 }
 
 ul.skills {
@@ -220,6 +255,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
+
 a.twitter {
   background-image: url(images/twitter.svg);
 }
